@@ -2,11 +2,7 @@ import { StyleSheet, Pressable, View, Text } from "react-native"
 import { type ButtonProps } from './button';
 import { FontAwesome } from "@expo/vector-icons"
 
-interface PrimaryButtonProps extends ButtonProps  {
-  onPress: () => void
-}
-
-const PrimaryButton = ({label, onPress}: PrimaryButtonProps) => {
+const PrimaryButton = ({label, onPress}: ButtonProps) => {
     return (
       <View style={[styles.buttonContainer, styles.primaryButtonContainer]}>
         <Pressable

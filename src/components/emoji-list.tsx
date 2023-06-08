@@ -31,8 +31,8 @@ const EmojiList = ({onSelect, onCloseModal}: EmojiListProps) => {
           </Pressable>
         )}
       }
-      horizontal // デフォルトで縦なので横にリスト表示できる
-      showsHorizontalScrollIndicator={Platform.OS === 'web'}
+      horizontal // デフォルトで垂直なので水平方向にリスト表示できる
+      showsHorizontalScrollIndicator={Platform.OS === 'web'} // Webのとき水平スクロールバーを表示する
 
 
     >

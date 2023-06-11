@@ -16,6 +16,7 @@ const EmojiPicker = ({ isVisible, children, onClose }: EmojiPickerProps) => {
           <Text style={styles.title}>Choose a sticker</Text>
           <Pressable onPress={onClose}>
             <MaterialIcons name="close" color="#fff" size={22} />
+            <Pressable onPress={onClose}>あ</Pressable>けす
           </Pressable>
         </View>
         {children}

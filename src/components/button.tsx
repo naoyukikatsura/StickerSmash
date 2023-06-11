@@ -2,7 +2,7 @@ import React from "react"
 import { StyleSheet, Pressable, View, Text } from "react-native"
 
 export interface ButtonProps  {
-  label: string
+  label: string,
   onPress: () => void
 }
 

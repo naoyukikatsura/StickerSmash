@@ -94,7 +94,6 @@ const App = () => {
     {/* JSX内でコメントアウトするとき */}
         <EmojiPicker isVisible={isModalVisible} onClose={handleSticker}>
           <EmojiList onSelect={setPickedEmoji} onCloseModal={handleSticker}/>
-
         </EmojiPicker>
     </GestureHandlerRootView>
   );
